@@ -19,8 +19,8 @@
 // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
 //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
                         bindings = <
-   &kp BSPC   &kp RG(A) &kp RG(MINUS) &kp UP &kp RG(PLUS) &kp R   &kp G &kp N5  &kp E     &kp O   &kp P    &kp BSPC
-   &kp RG(S) &kp LC(LA(RSHFT)) &kp LEFT &kp DOWN &kp RIGHT &kp RG(R)   &kp E &kp O  &kp C     &kp T   &kp SEMI &kp SQT
+   &kp BSPC   &kp RG(S) &kp RG(MINUS) &kp UP &kp RG(PLUS) &kp R   &kp G &kp N5  &kp E     &kp O   &kp P    &kp BSPC
+   &sys RESET &kp LC(LA(RSHFT)) &kp LEFT &kp DOWN &kp RIGHT &kp RG(R)   &kp E &kp O  &kp C     &kp T   &kp SEMI &sys RESET
    &kp RG(Z) &kp RSHFT &kp X &kp RG(C) &kp RG(V) &kp V   &kp N &kp R  &kp N0 &kp N &bt BT_CLR &kp ENTER
                   &kp LGUI &kp LALT &kp SPACE   &kp SPACE &kp RALT &kp RCTRL
                         >;
